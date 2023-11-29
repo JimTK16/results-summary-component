@@ -25,13 +25,11 @@ img {
 
 /* VARIABLES */
 
-:root {
-  --line-length: 10px;
-  --color: #33333324;
-}
 body {
-  display: grid;
-  place-content: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.8rem;
   font-family: "Hanken Grotesk", sans-serif;
 }
@@ -211,7 +209,7 @@ body {
 @media screen and (min-width: 600px) {
   .container {
     display: flex;
-    margin-block-start: 8rem;
+
     box-shadow: 6px 6px 20px 4px hsla(241, 100%, 89%, 0.287);
     border-radius: 40px;
   }
