@@ -213,8 +213,7 @@ body {
     display: flex;
     margin-block-start: 8rem;
     box-shadow: 6px 6px 20px 4px hsla(241, 100%, 89%, 0.287);
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
+    border-radius: 40px;
   }
 
   .section-hero,
